@@ -1,0 +1,8 @@
+commonmark>=0.9.1
+docutils>=0.16
+pyenchant>=3.2.2
+Pygments>=2.10.0
+pyparsing>=3.0.6
+Sphinx>=4.3.0
+sphinx-rtd-theme>=1.0.0
+sphinxcontrib-spelling>=7.2.1
