@@ -1,0 +1,20 @@
+.wy-nav-side {
+  display: none;
+}
+.wy-nav-content-wrap {
+  margin-left: 0;
+}
+.ws_logo {
+  margin-left: 4vw;
+  width: 12vw;
+  padding: 0.5vw;
+}
+.wy-nav-content {
+  max-width: 100%;
+}
+.wy-breadcrumbs {
+  display: none;
+}
+.admonition-title {
+  background: #013243;i
+}
