@@ -1,4 +1,4 @@
-name: NumPy Doc Redirect WiteSand CI Build Sanity
+name: NumPy Doc Redirect CI Build Sanity
 
 on: 
   push:
