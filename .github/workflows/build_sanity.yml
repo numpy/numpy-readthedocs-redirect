@@ -1,0 +1,23 @@
+name: NumPy Doc Redirect WiteSand CI Build Sanity
+
+on: 
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - uses: ammaraskar/sphinx-action@master
+      with:
+        docs-folder: "./"
+        pre-build-command: "apt-get update -y && apt-get install -y build-essential make libenchant-dev enchant git latexmk texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-luatex texlive-xetex dialog apt-utils && apt-get autoremove && apt-get clean"
+        build-command: "make html"
