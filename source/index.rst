@@ -10,7 +10,7 @@ NumPy is the fundamental package for scientific computing with Python.
 
 .. note::  **Redirecting to NumPy Website**
 
-     To access NumPy Documentation, click `here <https://numpy.org/doc/stable/>`_ .
+     To access NumPy Documentation, click `here <https://numpy.org/doc/stable/>`_.
     
      Visit `numpy.org website <https://numpy.org>`_ for details on NumPy, Ecosystem, Case Studies, Tutorials and more!
 

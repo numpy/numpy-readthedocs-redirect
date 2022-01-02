@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'NumPy Documentation'
-copyright = '© 2021, NumPy. All rights reserved.'
+copyright = '© 2021, NumPy. All rights reserved'
 author = 'Shaloo Shalini'
 
 
